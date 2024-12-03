@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3DF6E7E62CFF04D0002A6AFE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3DF6E7E52CFF04D0002A6AFE /* Alamofire */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		3D2A24862CF5C6AC00F8AF0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DF6E7E62CFF04D0002A6AFE /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +105,7 @@
 			);
 			name = ClassifierApp;
 			packageProductDependencies = (
+				3DF6E7E52CFF04D0002A6AFE /* Alamofire */,
 			);
 			productName = ClassifierApp;
 			productReference = 3D2A24752CF5C6AB00F8AF0A /* ClassifierApp.app */;
@@ -177,6 +183,9 @@
 			);
 			mainGroup = 3D2A246C2CF5C6AB00F8AF0A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				3DF6E7E42CFF04D0002A6AFE /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 3D2A24762CF5C6AB00F8AF0A /* Products */;
 			projectDirPath = "";
@@ -534,6 +543,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DF6E7E42CFF04D0002A6AFE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DF6E7E52CFF04D0002A6AFE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DF6E7E42CFF04D0002A6AFE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3D2A246D2CF5C6AB00F8AF0A /* Project object */;
 }
