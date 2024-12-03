@@ -3,7 +3,7 @@ import SwiftUI
 struct SettingsView: View {
     @State private var selectedGender: String = "Other"
     
-    let genders = ["Woman", "Man", "Other"]
+    let genders = [String(localized:"Woman"), String(localized:"Man"), String(localized:"Other")]
 
     var body: some View {
         NavigationView {

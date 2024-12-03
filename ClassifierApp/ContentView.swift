@@ -1,19 +1,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var recognitionResults: [RecognitionResult] = []
+    @StateObject private var recognizer = ImageRecognizer(modelName: "MyImageClassifier")!
+
     var body: some View {
         TabView {
-            Tab("Load Image", systemImage: "photo") {
-                LoadImageView()
-            }
+            LoadImageView(recognizer: recognizer, recognitionResults: $recognitionResults)
+                .tabItem {
+                    Label("Load Image", systemImage: "photo")
+                }
 
-            Tab("Results", systemImage: "list.bullet") {
-                ResultsListView()
-            }
+            ResultsListView(results: recognitionResults)
+                .tabItem {
+                    Label("Results", systemImage: "list.bullet")
+                }
 
-            Tab("Settings", systemImage: "gear") {
-                SettingsView()
-            }
+            SettingsView()
+                .tabItem {
+                    Label("Settings", systemImage: "gear")
+                }
         }
     }
 }
