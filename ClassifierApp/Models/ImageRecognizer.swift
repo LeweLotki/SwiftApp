@@ -92,8 +92,15 @@ enum RecognitionState: Equatable {
     }
 }
 
-struct RecognitionResult: Identifiable {
+import Foundation
+
+struct RecognitionResult: Identifiable, Equatable {
     let id = UUID()
     let label: String
     let confidence: Double
+
+    static func == (lhs: RecognitionResult, rhs: RecognitionResult) -> Bool {
+        return lhs.label == rhs.label && lhs.confidence == rhs.confidence
+    }
 }
+
