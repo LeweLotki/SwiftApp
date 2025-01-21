@@ -1,0 +1,176 @@
+{
+  "sourceLanguage" : "pl",
+  "strings" : {
+    "Definition" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Definicja"
+          }
+        }
+      }
+    },
+    "Detection Results" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyniki detekcji"
+          }
+        }
+      }
+    },
+    "Gender" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plec kulturowa"
+          }
+        }
+      }
+    },
+    "High Confidence" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wysoka pewność"
+          }
+        }
+      }
+    },
+    "Load Image" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zaladuj obraz"
+          }
+        }
+      }
+    },
+    "Man" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mezczyzna"
+          }
+        }
+      }
+    },
+    "Moderate Confidence" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Średnia pewność"
+          }
+        }
+      }
+    },
+    "No image selected" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak wybranego obrazu"
+          }
+        }
+      }
+    },
+    "No results available" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak dostępnych wyników"
+          }
+        }
+      }
+    },
+    "Other" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "inna"
+          }
+        }
+      }
+    },
+    "Pick an Image" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybierz obraz"
+          }
+        }
+      }
+    },
+    "Processing..." : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przetwarzanie…"
+          }
+        }
+      }
+    },
+    "Results" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyniki"
+          }
+        }
+      }
+    },
+    "Run Recognition" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozpocznij rozpoznawanie"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustawienia"
+          }
+        }
+      }
+    },
+    "User Settings" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustawienia użytkownika"
+          }
+        }
+      }
+    },
+    "Woman" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "kobieta"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
